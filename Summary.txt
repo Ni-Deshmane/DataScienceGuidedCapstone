@@ -1,0 +1,6 @@
+the original number of rows in the data
+	The 
+whether our own resort was actually present etc. 
+What columns, if any, have been removed? Any rows? Summarise the reasons why. 
+Were any other issues found? What remedial actions did you take? 
+State where you are in the project.
