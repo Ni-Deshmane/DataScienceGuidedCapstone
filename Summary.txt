@@ -1,6 +1,15 @@
 the original number of rows in the data
-	The 
+	The original .csv file had 300 rows and 27 columns.  In this data, I noticed the adult ticket price columns as a feature of interest.  
+
 whether our own resort was actually present etc. 
+	The data for Big Mountain Ski resort was present and accouned for.  
+
 What columns, if any, have been removed? Any rows? Summarise the reasons why. 
+	There were, however some columns that had a significant amount of data missing across all records, such as the fastEight (50%), nightSkiing (43%), and AdultWeekday (16%). The fastEight column was dropped becasue they lack a significant amount of values and may skew the data unfavorably. Also, 14% of the resorts were missing both the AdultWeekday and AdultWeekend prices.  Since those data points are key factors in this analysis, they weer dropped. Additionally, a row that had an inaccurate value for years open had to be deleted. 
+
 Were any other issues found? What remedial actions did you take? 
+	In analyzing the data, I found some exranneous values, such as years open, and skiiable terrain which needed to be updated in the data.  Additinally, i found that Heavenly Mountain resort has a value for Snow Making_ac that doesn't match the munbers from their website. For now, I'm keeping this data.  Also some data is categorrically missing, following a distinct pattern. This data will remain in the dataset for now as well. Also a point to note is the vairiance in data distribution per state.  This tells me that we should focus on our own state and states with similar data distributions.
+	
+
 State where you are in the project.
+	This concludes the data wrangling portion of this project.  I was able to format and clean the data, by removing any extranneous and null values, columns. I was also able to pull population data to give a better understanding of the effect of population density on the market price per ticket.  There are still some missing data, but the overall dataset is now clean.  The final data now has 277 rows, and 25 columns.
